@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+} 
+.nav h1{
+    color: red;
+    margin: 0;
+    font-size: 40px;
+}
+h1 a{
+    color: red;
+    text-decoration: none;
+}
+.nav .nav-search{
+    flex: 1;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+.nav .nav-search input{
+    flex: 1;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+    border-right: none;
+} 
+.nav .nav-search button{
+    height: 35px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    background-color: white;
+}  
+.nav ul{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav ul li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+} 
